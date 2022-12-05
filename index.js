@@ -1,1 +1,13 @@
-ReactDOM.render(<p1>Hi this is another text of React</p1>, document.getElementById("root"))
+
+const navbar = (
+    <nav>
+        <h1>The test site</h1>
+        <ul>
+        <li>about</li>
+        <li>contact</li>
+        <li>menu</li>
+        </ul>
+    </nav>
+)
+ReactDOM.render (navbar, document.getElementById("root"))
+
